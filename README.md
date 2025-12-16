@@ -1,9 +1,14 @@
 # EXP-4
+
+
 EXP. NO. 4. 		HALFWAVE  AND FULL WAVE  RECTIFIERS
+
 
 AIM: To study the characteristics of half wave, full wave and bridge rectifier with and without filter and calculate the ripple factor, rectification efficiency and % regulation.
 
+
 COMPONENTS  AND  EQUIPMENT  REQUIRED:  Diodes,  Resistor,  Transformer,  Voltmeter, Ammeter, Breadboard and CRO.
+
 
 THEORY: Rectifier changes ac to dc and it is an essential part of power supply. The unique property of a diode, permitting the current to flow in one direction, is utilised in rectifiers.
 
@@ -15,6 +20,8 @@ For a half wave rectifier, Vrms = Vm/2 and Vdc = Vm/π: where Vrms = rms value o
 
 
 Full Wave Rectifier
+
+
 During the positive half cycle of the transformer secondary voltage, diode     is forward biased and      is reverse biased. So a current flows through the diode     , load resistor      and upper half of the transformer  winding.  During  the  negative  half  cycle,  diode       becomes  forward  biased  and becomes reverse biased. The current then flows through the diode     , load resistor      and lower half of the transformer winding. Current flows through the load resistor in the same direction during both the half cycles. Peak value of the output voltage is less than the peak value of the input voltage by 0.6V
 because of the voltage drop across the diode.
 During the positive half cycle of the secondary voltage, diodes      and      are forward biased and diodes and      are reverse biased. Therefore, current flows through the secondary winding, diode     , load resistor
@@ -25,7 +32,10 @@ Capacitor input filter, choke input filter, RC, CRC, LC, and CLC filters are the
 
 Rectifier Efficiency
 
+
 Rectifier efficiency is defined as the ratio of DC output power to the input power from the AC supply. Even with ideal rectifiers with no losses, the efficiency is less than 100% because some of the output power is AC power rather than DC which manifests as ripple superimposed on the DC waveform.
+
+
 PROCEDURE:
 
 1.   Wire up the half wave rectifier circuit without capacitor after testing all the components.
@@ -34,18 +44,45 @@ PROCEDURE:
 3.   Connect the capacitor filter and observe the waveforms. Note down and calculate ripple factor, rectifier efficiency and %regulation using the expressions. Repeat for different capacitor values.
 4.   Repeat the above steps for full wave and bridge rectifiers.
 
+
 CIRCUIT DIAGRAMS
 
 Half wave rectifier with filter:
+<img width="865" height="815" alt="half wave(wf)" src="https://github.com/user-attachments/assets/296fa58f-143c-4013-8876-acae5b981ab4" />
+
+<img width="1280" height="500" alt="image" src="https://github.com/user-attachments/assets/c980a70b-d8c6-44ec-82fb-50546c0cd82b" />
 
 Bridge rectifier with filter:
+<img width="977" height="760" alt="full wave(wf)" src="https://github.com/user-attachments/assets/169e32a1-3aad-491f-b877-2bc59e118bfe" />
+<img width="1280" height="458" alt="image" src="https://github.com/user-attachments/assets/80bf0d28-4654-435a-9317-fcefe048fc88" />
+
 
 TABULAR COLUMN
-Rectifier without filter
+
+
+Half Wave Rectifier with and without filter:
+<img width="1280" height="373" alt="image" src="https://github.com/user-attachments/assets/953d3d14-152f-4906-b443-04bca9642efc" />
+
 TABULAR COLUMN
-Rectifier with filter
+
+
+Full Wave Rectifier with and without filter:
+<img width="1280" height="376" alt="image" src="https://github.com/user-attachments/assets/2627ec7a-d585-4120-8dcb-f2e91f95a0cd" />
+
 
 WAVEFORM:
+
+
+Half wave:
+
+<img width="754" height="394" alt="half wave(wf)dia" src="https://github.com/user-attachments/assets/91ae2259-d466-4eca-8e8b-64c0adb463d8" />
+<img width="1280" height="351" alt="image" src="https://github.com/user-attachments/assets/f8567a71-de08-4140-b67d-1881f1ddfdc5" />
+
+
+Full Wave:
+
+<img width="749" height="393" alt="full wave(wf)dia" src="https://github.com/user-attachments/assets/a9ad711d-8277-4ef5-8f8b-eed69e06ff7e" />
+<img width="1280" height="423" alt="image" src="https://github.com/user-attachments/assets/7abea4d5-431c-4e74-95a4-32eddb15cf9e" />
 
 
 RESULT:
